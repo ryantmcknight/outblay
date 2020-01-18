@@ -105,10 +105,11 @@ nav {
 // landing-page
 .why-join {
 	img {
-		width: 35px;
-		height: 35px;
-		margin-right: 1rem;
+		width: 25px;
+		height: 25px;
+		margin-right: .675rem;
 		vertical-align: middle;
+		float: left;
 	}
 	li {
 		margin-bottom: 1.25rem;
@@ -415,6 +416,14 @@ input[type = "submit"] {
 	}
 	.overlayed-content {
 		background-size: cover;
+	}
+	.why-join {
+		img {
+			width: 35px;
+			height: 35px;
+			margin-right: 1rem;
+			float: none;
+		}
 	}
 }
 .feature-img {
