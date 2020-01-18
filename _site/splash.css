@@ -84,10 +84,11 @@ nav {
   width: 1.2em; }
 
 .why-join img {
-  width: 35px;
-  height: 35px;
-  margin-right: 1rem;
-  vertical-align: middle; }
+  width: 25px;
+  height: 25px;
+  margin-right: .675rem;
+  vertical-align: middle;
+  float: left; }
 .why-join li {
   margin-bottom: 1.25rem;
   font-size: 1.125rem;
@@ -326,7 +327,13 @@ input[type="submit"] {
     right: 450px; }
 
   .overlayed-content {
-    background-size: cover; } }
+    background-size: cover; }
+
+  .why-join img {
+    width: 35px;
+    height: 35px;
+    margin-right: 1rem;
+    float: none; } }
 .feature-img {
   /*box-shadow: rgba(0, 0, 0, 0.11) 0px 10px 16px;
   border-radius: 6px;*/
