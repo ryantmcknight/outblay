@@ -7,6 +7,26 @@ body {
 }
 
 // universal
+
+
+.full-width {
+	padding: 2rem 1rem;
+	h1, h2, h3, h4, p, li, .logo {
+		max-width: 700px;
+		margin: 0 auto;
+	}
+	p { 
+		margin: 1.5rem auto 0 auto;
+	}
+	.logo {
+		display: block;
+		margin-bottom: 5rem;
+	}
+}
+
+h1 {
+	font-size: 1.675rem;
+}
 h2 {
 	font-size: 1.675rem;
 	margin: 0 0 1rem 0;
@@ -17,6 +37,7 @@ h3 {
 	margin: 1rem 0 .5rem 0;
 }
 p {
+	font-size:1.25rem;
 	line-height: 1.6;
 }
 a {
@@ -115,6 +136,24 @@ nav {
 		margin-bottom: 1.25rem;
 	    font-size:1.125rem;
 		font-weight:400;
+	}
+}
+//footer
+footer {
+	background: #f5f7f8;
+	padding: 1rem;
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		display: inline-block;
+	}
+	a {
+		font-weight: 700;
+	}
+	p {
+		font-size: .875rem;
 	}
 }
 
@@ -411,6 +450,9 @@ input[type = "submit"] {
 	}
 }
 @media screen and (min-width: 65em) {
+	footer {
+		padding: 1.5rem 1rem 1rem 4rem; 
+	}
 	#polygon {
 	    right: 450px;
 	}
